@@ -744,6 +744,8 @@ switch ($_GET['act']) {
                         $mailperson = "anriga@sanden.co.id";
                     } ELSE IF ($_SESSION['s_nama_employee'] == 'Yasan') {
                         $mailperson = "anriga@sanden.co.id";
+                    } ELSE IF ($_SESSION['s_nama_employee'] == 'Deni Kurniawan') {
+                        $mailperson = "andreansyah@sanden.co.id";
                     } else {
                         $mailperson = $_SESSION['s_email'];
                     }
