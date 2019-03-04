@@ -834,7 +834,7 @@ switch ($_GET['act']) {
                     $headers .= 'From: PSI-OCBS Admin <admincobs@sanden.co.id>' . "\r\n";
                     $headers .= 'Bcc: mis@sanden.co.id' . "\r\n";
                     //$headers .= 'Bcc: dodi.kesumayadi@sanden.co.id' . "\r\n";
-                    $headers .= 'Bcc: zaini1@sanden.co.id' . "\r\n";
+                    //$headers .= 'Bcc: zaini@sanden.co.id' . "\r\n";
 
                     mail($to, $subject, $message, $headers);
                 } else {
@@ -2443,7 +2443,7 @@ switch ($_GET['act']) {
                 $headers .= 'From: PSI-OCBS Admin <admincobs@sanden.co.id>' . "\r\n";
                 $headers .= 'Bcc: mis@sanden.co.id' . "\r\n";
                 //$headers .= 'Bcc: dodi.kesumayadi@sanden.co.id' . "\r\n";
-                $headers .= 'Bcc: zaini1@sanden.co.id' . "\r\n";
+                //$headers .= 'Bcc: zaini@sanden.co.id' . "\r\n";
             } else {
 
 //================================================mail for hod=========================================				
